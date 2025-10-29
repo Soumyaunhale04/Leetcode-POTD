@@ -9,3 +9,9 @@ class Solution {
         return num;
     }
 }
+
+// second approach
+
+int x = n;
+while(x&(x+1)!=0) x++;
+return x;
